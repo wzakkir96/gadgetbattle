@@ -1,0 +1,208 @@
+{
+  "phones": [
+    {
+      "id": "iphone15",
+      "brand": "Apple",
+      "model": "iPhone 15 Pro",
+      "year": 2023,
+      "image": "phones/images/iphone15.png",
+      "specs": {
+        "display": "6.1″ OLED (120Hz)",
+        "processor": "A17 Pro",
+        "battery": "3,274mAh (24hrs video)",
+        "efficiency": "20% better than A16",
+        "camera": "48MP + 12MP + 12MP",
+        "price": "$999"
+      },
+      "pros": ["Best video quality", "Longest software support"],
+      "cons": ["Expensive", "No charger included"]
+    },
+    {
+      "id": "galaxy_s23",
+      "brand": "Samsung",
+      "model": "Galaxy S23 Ultra",
+      "year": 2023,
+      "image": "phones/images/galaxy_s23.png",
+      "specs": {
+        "display": "6.8″ AMOLED (120Hz)",
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "5,000mAh (22hrs video)",
+        "efficiency": "15% faster GPU than A16",
+        "camera": "200MP + 12MP + 10MP + 10MP",
+        "price": "$1,199"
+      },
+      "pros": ["Best zoom camera", "S Pen support"],
+      "cons": ["Bulky", "Slow charging"]
+    },
+    {
+      "id": "pixel8",
+      "brand": "Google",
+      "model": "Pixel 8 Pro",
+      "year": 2023,
+      "image": "phones/images/pixel8.png",
+      "specs": {
+        "display": "6.7″ OLED (120Hz)",
+        "processor": "Google Tensor G3",
+        "battery": "5,050mAh (20hrs video)",
+        "efficiency": "AI-focused chip",
+        "camera": "50MP + 48MP + 48MP",
+        "price": "$999"
+      },
+      "pros": ["Best computational photography", "7 years of updates"],
+      "cons": ["Modest raw power", "No telephoto zoom"]
+    },
+    {
+      "id": "oneplus11",
+      "brand": "OnePlus",
+      "model": "OnePlus 11",
+      "year": 2023,
+      "image": "phones/images/oneplus11.png",
+      "specs": {
+        "display": "6.7″ AMOLED (120Hz)",
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "5,000mAh (18hrs video)",
+        "efficiency": "Fastest Android charging (80W)",
+        "camera": "50MP + 48MP + 32MP",
+        "price": "$699"
+      },
+      "pros": ["Affordable flagship", "Blazing fast charging"],
+      "cons": ["No wireless charging", "No IP rating"]
+    },
+    {
+      "id": "xiaomi13",
+      "brand": "Xiaomi",
+      "model": "Xiaomi 13 Pro",
+      "year": 2023,
+      "image": "phones/images/xiaomi13.png",
+      "specs": {
+        "display": "6.73″ AMOLED (120Hz)",
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "4,820mAh (19hrs video)",
+        "efficiency": "1-inch camera sensor",
+        "camera": "50MP + 50MP + 50MP",
+        "price": "$999"
+      },
+      "pros": ["Leica-tuned cameras", "Premium build"],
+      "cons": ["MIUI software bloat", "Heavy"]
+    },
+    {
+      "id": "mate50",
+      "brand": "Huawei",
+      "model": "Mate 50 Pro",
+      "year": 2022,
+      "image": "phones/images/mate50.png",
+      "specs": {
+        "display": "6.74″ OLED (120Hz)",
+        "processor": "Snapdragon 8+ Gen 1 (4G)",
+        "battery": "4,700mAh (17hrs video)",
+        "efficiency": "Satellite messaging",
+        "camera": "50MP + 64MP + 13MP",
+        "price": "$1,199"
+      },
+      "pros": ["Innovative features", "Excellent build"],
+      "cons": ["No Google apps", "4G only"]
+    },
+    {
+      "id": "oppo_findx6",
+      "brand": "Oppo",
+      "model": "Find X6 Pro",
+      "year": 2023,
+      "image": "phones/images/oppo_findx6.png",
+      "specs": {
+        "display": "6.82″ AMOLED (120Hz)",
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "5,000mAh (20hrs video)",
+        "efficiency": "SuperVOOC 100W charging",
+        "camera": "50MP + 50MP + 50MP",
+        "price": "$1,099"
+      },
+      "pros": ["Best low-light camera", "Fast charging"],
+      "cons": ["Heavy", "No global release"]
+    },
+    {
+      "id": "vivo_x90",
+      "brand": "Vivo",
+      "model": "X90 Pro+",
+      "year": 2023,
+      "image": "phones/images/vivo_x90.png",
+      "specs": {
+        "display": "6.78″ AMOLED (120Hz)",
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "4,700mAh (18hrs video)",
+        "efficiency": "Zeiss-tuned cameras",
+        "camera": "50MP + 50MP + 64MP + 50MP",
+        "price": "$1,199"
+      },
+      "pros": ["Pro-level photography", "Sleek design"],
+      "cons": ["Expensive", "No IP68 rating"]
+    },
+    {
+      "id": "nothing_phone2",
+      "brand": "Nothing",
+      "model": "Phone (2)",
+      "year": 2023,
+      "image": "phones/images/nothing_phone2.png",
+      "specs": {
+        "display": "6.7″ OLED (120Hz)",
+        "processor": "Snapdragon 8+ Gen 1",
+        "battery": "4,700mAh (16hrs video)",
+        "efficiency": "Unique Glyph LED design",
+        "camera": "50MP + 50MP",
+        "price": "$599"
+      },
+      "pros": ["Transparent design", "Affordable"],
+      "cons": ["Average cameras", "No telephoto"]
+    },
+    {
+      "id": "redmagic8",
+      "brand": "Nubia",
+      "model": "RedMagic 8 Pro",
+      "year": 2023,
+      "image": "phones/images/redmagic8.png",
+      "specs": {
+        "display": "6.8″ AMOLED (120Hz)",
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "6,000mAh (15hrs gaming)",
+        "efficiency": "Built-in cooling fan",
+        "camera": "50MP + 8MP + 2MP",
+        "price": "$649"
+      },
+      "pros": ["Best gaming phone", "Massive battery"],
+      "cons": ["Average cameras", "Heavy"]
+    },
+    {
+      "id": "rog_phone7",
+      "brand": "ASUS",
+      "model": "ROG Phone 7",
+      "year": 2023,
+      "image": "phones/images/rog_phone7.png",
+      "specs": {
+        "display": "6.78″ AMOLED (165Hz)",
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "6,000mAh (14hrs gaming)",
+        "efficiency": "AirTrigger gaming buttons",
+        "camera": "50MP + 13MP + 5MP",
+        "price": "$999"
+      },
+      "pros": ["Ultra-smooth display", "Gaming accessories"],
+      "cons": ["Thick bezels", "No wireless charging"]
+    },
+    {
+      "id": "fairphone5",
+      "brand": "Fairphone",
+      "model": "Fairphone 5",
+      "year": 2023,
+      "image": "phones/images/fairphone5.png",
+      "specs": {
+        "display": "6.46″ OLED (90Hz)",
+        "processor": "Snapdragon 782G",
+        "battery": "4,200mAh (12hrs video)",
+        "efficiency": "Modular repairability",
+        "camera": "50MP + 50MP",
+        "price": "$699"
+      },
+      "pros": ["Eco-friendly", "User-replaceable parts"],
+      "cons": ["Mid-range specs", "Expensive for performance"]
+    }
+  ]
+}
