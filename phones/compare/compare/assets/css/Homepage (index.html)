@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GadgetBattle | Phone Comparisons Made Simple</title>
+  <link rel="stylesheet" href="assets/css/homepage.css">
+</head>
+<body>
+  <header>
+    <h1>🔍 GadgetBattle</h1>
+    <p>Compare phones in <em>plain English</em> — no jargon!</p>
+  </header>
+
+  <main>
+    <section class="featured-phones">
+      <h2>Popular Phones</h2>
+      <div class="phone-grid">
+        <!-- Dynamically loaded from data.json -->
+        <div class="phone-item">
+          <img src="phones/images/iphone15.png" alt="iPhone 15">
+          <h3>iPhone 15</h3>
+          <a href="compare/?phone1=iphone15" class="compare-button">Compare</a>
+        </div>
+        <div class="phone-item">
+          <img src="phones/images/galaxy_s23.png" alt="Galaxy S23">
+          <h3>Galaxy S23</h3>
+          <a href="compare/?phone2=galaxy_s23" class="compare-button">Compare</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <a href="compare/" class="button">Start Comparing →</a>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
