@@ -1,0 +1,11 @@
+// Add this at the top of compare/script.js
+const urlParams = new URLSearchParams(window.location.search);
+const presetPhone1 = urlParams.get('phone1');
+const presetPhone2 = urlParams.get('phone2');
+
+// Modify the comparePhones() function to use presets if they exist
+function comparePhones() {
+  const phone1Id = presetPhone1 || document.getElementById('phone1-select').value;
+  const phone2Id = presetPhone2 || document.getElementById('phone2-select').value;
+  // ... rest of the function
+}
