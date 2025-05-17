@@ -1,0 +1,28 @@
+{
+  "phones": [
+    {
+      "id": "iphone15",
+      "model": "iPhone 15",
+      "image": "phones/images/iphone15.png",
+      "specs": {
+        "processor": "A16 Bionic",
+        "battery": "20hrs video playback",
+        "efficiency": "5% better than Snapdragon 8 Gen 2",
+        "camera": "48MP Main + 12MP Ultra Wide"
+      },
+      "pros": ["Best video quality", "Long updates"],
+      "cons": ["No charger included", "Expensive"]
+    },
+    {
+      "id": "galaxy_s23",
+      "model": "Samsung Galaxy S23",
+      "image": "phones/images/galaxy_s23.png",
+      "specs": {
+        "processor": "Snapdragon 8 Gen 2",
+        "battery": "22hrs video playback",
+        "efficiency": "10% faster GPU than A16",
+        "camera": "50MP Main + 12MP Ultra Wide"
+      }
+    }
+  ]
+}
