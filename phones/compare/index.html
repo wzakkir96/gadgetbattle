@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Comparison | GadgetBattle</title>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>📱 Phone Comparison Tool</h1>
+  </header>
+
+  <div class="comparison-container">
+    <!-- Phone Selection Dropdowns -->
+    <select id="phone1-select">
+      <option value="">Select Phone 1</option>
+    </select>
+    <select id="phone2-select">
+      <option value="">Select Phone 2</option>
+    </select>
+
+    <!-- Display Compared Phones -->
+    <div class="phones">
+      <div id="phone1-card" class="phone-card"></div>
+      <div id="phone2-card" class="phone-card"></div>
+    </div>
+
+    <!-- Charts -->
+    <div class="charts">
+      <canvas id="batteryChart"></canvas>
+      <canvas id="performanceChart"></canvas>
+    </div>
+
+    <!-- Simple Explanations -->
+    <div id="insights">
+      <h3>Key Insights</h3>
+      <p id="efficiency-text"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
